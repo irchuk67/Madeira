@@ -1,0 +1,19 @@
+.headerWrapper{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "l nb nb nb nb nb ob ob";
+
+}
+.logo{
+    grid-area: l;
+    width: auto;
+}
+
+.navBar{
+    grid-area: nb;
+}
+
+.orderButton{
+    grid-area: ob;
+}
